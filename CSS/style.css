@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  font-family: "Tangerine", sans-serif;
+}
+
+/* ************************* Navbar Section **************************************** */
+.navbar {
+  background: linear-gradient(
+    to right,
+    rgba(146, 91, 91, 0.95),
+    rgba(236, 186, 186, 0.95)
+  );
+  text-transform: uppercase;
+  font-family: sans-serif;
+  z-index: 110;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  border: 0.3rem solid rgb(180, 113, 113);
+}
+
+.navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(207, 188, 188, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-item li {
+  position: absolute;
+}
+.navbar-nav .nav-item a {
+  color: rgb(143, 64, 64);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: bisque;
+}
+
+/* **************************************  End Navbar Section **************** */ 
+
+/* *****************************************  Main Section **************** */
+.header {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+
+.header-overlay {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #dcd3e8;
+  background-color: #ede4f9;
+  background-color: #cfbfe8;
+  background-color: #dfdbe5;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%237b567e' fill-opacity='0.26' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: rgba(172, 93, 93, 0.75);
+}
+
+@media screen and (max-width: 700px) {
+  .header-overlay {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-overlay {
+    width: 25vw;
+    height: 25vh;
+  }
+}
+
+.header-text h1 {
+  color: rgb(245, 140, 11);
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 75px;
+  padding-top: 200px;
+  padding-left: 300px;
+  position: relative;
+  overflow-wrap: break-word;
+  display: flex;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .header-text h1 {
+    color: rgb(245, 140, 11);
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 35px;
+    padding-top: 100px;
+    padding-left: 100px;
+    overflow-wrap: break-word;
+    display: flex;
+  }
+}
+
+.header-text p {
+  color: bisque;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  padding-top: 70px;
+  padding-left: 200px;
+  text-align: center;
+  overflow-wrap: break-word;
+  display: flex;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .header-text p {
+    color: bisque;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25px;
+    padding-top: 40px;
+    padding-left: 200px;
+  }
+}
+
+.my-picture img {
+  width: 100%;
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 120px 20px 120px 20px;
+  border: 0.5rem;
+  background-color: rgb(180, 113, 113);
+  padding: 0.5rem;
+  opacity: 0.9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  padding-top: 5rem;
+  position: relative;
+}
+
+.contact-box__icon {
+  width: 4rem;
+  stroke: rgb(73, 6, 90);
+}
+
+.contact-box__info {
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+
+.contact-box__info--title {
+  color: rgb(63, 16, 16);
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+/* ************************************ End Main Section **************** */
+
+/* ************************************ About Section ********************** */
+
+.about-area {
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffa8a8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro {
+  color: rgb(73, 6, 90);
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  display: flex;
+  font-weight: 800;
+  overflow-wrap: break-word;
+}
+
+.description {
+  color: rgb(63, 16, 16);
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  display: block;
+  line-height: 1;
+  overflow-wrap: break-word;
+  display: flex;
+}
+
+.video-box {
+  position: relative;
+}
+.video-box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.intros i {
+  font-size: 5rem;
+  color: black;
+  display: flex;
+}
+.intros i:hover {
+  color: rgb(211, 64, 64);
+}
+
+/* ************************************** End About Section ************************* */
+
+/* Projects Section */
+.portfolio {
+  background-color: rgb(209, 147, 147);
+}
+
+.project-title {
+  color: rgb(73, 6, 90);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.project-description {
+  color: rgb(63, 16, 16);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.link-danger {
+  color: brown;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.content {
+  margin-top: 50px;
+}
+/* ***************************************** End Projects Section ***************************** */
+
+/* ****************************************** Footer Section ********************************** */
+
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  background-color: rgba(117, 97, 97, 0.75);
+}
+
+.footer__copyright {
+  color: bisque;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.footer__copyright a {
+  color: brown;
+  text-decoration: none;
+}
+
+.footer__copyright a:hover {
+  color: black;
+}
+
+#angle {
+  text-align: right;
+}
+
+#angle a {
+  background-color: brown;
+  padding: 1rem;
+}
+
+#angle a i {
+  color: bisque;
+  font-size: 1.5rem;
+}
+
+/* *********************************************** End Footer Section **************************** */
