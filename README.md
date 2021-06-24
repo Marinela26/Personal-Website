@@ -19,7 +19,7 @@
 
 ## Description
  
- Simple personal website built with the purpose to illustrate the latest work. It contains  clear navigation for the content and a joyful design. :simple_smile:
+ Simple personal website built with the purpose to illustrate the latest work. It contains  clear navigation for the content and a joyful design.
 
 ## Technologies Used
 - HTML5
