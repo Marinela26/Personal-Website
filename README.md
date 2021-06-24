@@ -6,11 +6,11 @@
 * [Screenshots](#screenshots)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Setup](#setup)
-* [Room for Improvement](#room-for-improvement)
+* [How to Run](#how to run)
+* [Future Improvement](#future improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-* [License](#license)
+* [License information](#license information)
 
 
 ## Screenshots
@@ -26,10 +26,10 @@
 - Tech 3 - version 3.0
 
 
-## Setup
+## How to Run
 
 
-## Room for Improvement
+## Future Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
@@ -54,9 +54,9 @@ Created by Marinela Togoe
 Email: marinelatogoe@gmail.com
 
 
- ## License
+ ## License Information
  
-This project is available under the [MiT License](). 
+This project is available under the [MIT License](). 
 
 
 
