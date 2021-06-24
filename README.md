@@ -49,12 +49,13 @@ Give credit here.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/)
+Created by Marinela Togoe
+Email: marinelatogoe@gmail.com
 
 
  ## License
  
-This project available under the [... License](). 
+This project is available under the [MiT License](). 
 
 
 
