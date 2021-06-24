@@ -6,11 +6,11 @@
 * [Screenshots](#screenshots)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [How to Run](#how to run)
-* [Future Improvement](#future improvement)
+* [How to Run](#how-to-run)
+* [Future Improvement](#future-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-* [License information](#license information)
+* [License information](#license-information)
 
 
 ## Screenshots
