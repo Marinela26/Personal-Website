@@ -65,6 +65,7 @@ $ yarn add glightbox
  OR
  
 $ bower install glightbox
+
 Or manually download and link glightbox.min.js in your HTML:
 
 <link rel="stylesheet" href="dist/css/glightbox.css" />
