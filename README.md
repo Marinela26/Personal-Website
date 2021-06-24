@@ -18,7 +18,8 @@
 <img src="website.png" alt="PacMan" width="#" height="#">
 
 ## Description
-
+ 
+ Simple personal website built with the purpose to illustrate the latest work. It contains a clear navigation for the content and a joyful design.
 
 ## Technologies Used
 - HTML5
@@ -33,9 +34,11 @@
 ## How to Run
 
 * Clone this repository
+
 $ git clone https://github.com/Marinela26/Personal-Website.git
 
 * Go into the repository
+
 $ cd Personal-Website
 
 * Usage Bootstrap
@@ -48,6 +51,8 @@ Or manually download and link bootstrap.min.css/bootstrap.min.js in your HTML:
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 
 * Usage Glightbox
 
@@ -85,7 +90,8 @@ Or manually download and link glightbox.min.js in your HTML:
 
 ## Future Improvement
 
-- Make room for future projects
+- Add sections for future projects
+- Add some animation style
 - Make it mobile fully responsive
 
 
