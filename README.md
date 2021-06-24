@@ -58,6 +58,7 @@ Email: marinelatogoe@gmail.com
  
 This project is available under the [MIT License](). 
 
+Please check full license document <a href="https://github.com/Marinela26/Personal-Website/blob/main/LICENSE">here</a>
 
 
 
