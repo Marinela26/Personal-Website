@@ -35,7 +35,7 @@
 * Clone this repository
 $ git clone https://github.com/Marinela26/Personal-Website.git
 
-# Go into the repository
+* Go into the repository
 $ cd Personal-Website
 
 * Usage Bootstrap
@@ -52,9 +52,13 @@ Or manually download and link bootstrap.min.css/bootstrap.min.js in your HTML:
 * Usage Glightbox
 
 $ npm install glightbox
-* OR
+
+ OR
+ 
 $ yarn add glightbox
-* OR
+
+ OR
+ 
 $ bower install glightbox
 Or manually download and link glightbox.min.js in your HTML:
 
