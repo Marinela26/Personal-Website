@@ -1,4 +1,4 @@
-# Personal Website
+#### Personal Website
 
 <a href="https://marinela26.github.io/Personal-Website/#HOME">Demo here</a>
 
@@ -82,7 +82,7 @@ Or manually download and link glightbox.min.js in your HTML:
 ## Future Improvement
 
 - Make room for future projects
-- Make it fully responsive
+- Make it mobile fully responsive
 
 
 ## Acknowledgements
