@@ -15,7 +15,7 @@
 
 ## Screenshots
 
-<img src="website.png" alt="PacMan" width="#" height="#">
+<img src="website.png" alt="#" width="#" height="#">
 
 ## Description
  
