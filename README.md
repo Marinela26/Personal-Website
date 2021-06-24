@@ -1,4 +1,4 @@
-#### Personal Website
+# Personal Website
 
 <a href="https://marinela26.github.io/Personal-Website/#HOME">Demo here</a>
 
@@ -32,13 +32,13 @@
 
 ## How to Run
 
-# Clone this repository
+* Clone this repository
 $ git clone https://github.com/Marinela26/Personal-Website.git
 
 # Go into the repository
 $ cd Personal-Website
 
-### Usage Bootstrap
+* Usage Bootstrap
 
 npm install bootstrap
 
@@ -49,12 +49,12 @@ Or manually download and link bootstrap.min.css/bootstrap.min.js in your HTML:
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-### Usage Glightbox
+* Usage Glightbox
 
 $ npm install glightbox
-# OR
+* OR
 $ yarn add glightbox
-# OR
+* OR
 $ bower install glightbox
 Or manually download and link glightbox.min.js in your HTML:
 
